@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         int resp = (Ancho*Altura*Largo)/1000;
         int resp2 = (Ancho*Hivel*Largo)/1000;
+        // envia datos a otra ventena
         Intent i = new Intent(this, Respuesta.class);
         i.putExtra("calculo",resp);
         i.putExtra("calculo2",resp2);
