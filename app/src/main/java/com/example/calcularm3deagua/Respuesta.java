@@ -23,6 +23,7 @@ public class Respuesta extends AppCompatActivity {
         textoBidon = (TextView)findViewById(R.id.textView6);
         textoGalon = (TextView)findViewById(R.id.textView8);
 
+        //recupero la informacion de la ventana anterior
         Intent intent = getIntent();
         Bundle extra = this.getIntent().getExtras();
         int ancho = extra.getInt("ancho");
